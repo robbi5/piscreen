@@ -1,0 +1,8 @@
+# piscreen config file
+# syntax: key=value. NO SPACE BETWETEEN key/value and =
+
+# Hostname of this screen. You can reach it via <hostname>.local
+hostname=piscreen-1
+
+# URL to open
+url=http://time.is
