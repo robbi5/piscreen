@@ -54,6 +54,7 @@ echo "Copying piscreen files"
 cp -r ./piscreen /home/screen/
 chown -R screen /home/screen/piscreen
 chmod +x /home/screen/piscreen/start-browser.sh
+chmod +x /home/screen/piscreen/autostart
 
 echo "Allowing screen shutdown"
 echo "screen ALL=(ALL) NOPASSWD: /sbin/shutdown, /sbin/poweroff, /sbin/reboot" >> /etc/sudoers
