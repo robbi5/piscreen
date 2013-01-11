@@ -40,7 +40,7 @@ cp ./piscreen.example.txt /boot/piscreen.txt
 chmod ugo+r /boot/piscreen.txt
 
 echo "Installing Google Chrome"
-bash <(curl -sL http://goo.gl/5vuJI)
+bash <(curl -sL http://distribution-us.hexxeh.net/chromium-rpi/install.sh)
 update-alternatives --install /usr/bin/x-www-browser x-www-browser /usr/bin/chrome 100
 
 echo "Creating openbox autostart"
