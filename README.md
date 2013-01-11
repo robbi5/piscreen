@@ -30,7 +30,7 @@ The difference to other signage-software like [Screeny OSE](https://github.com/w
         apt-get update
         apt-get -y dist-upgrade
 
-  If a conflict happens for `/etc/skel.d/bashrc` press `Y`.
+  If a conflict happens for any file press `Y`.
 
 4. Change the password of root: `passwd`
 
@@ -42,9 +42,9 @@ The difference to other signage-software like [Screeny OSE](https://github.com/w
 
 2. Install Git: `apt-get install git-core`
 
-3. Checkout the files of this repo: `git clone https://github.com/robbi5/piscreen.git ./`
+3. Checkout the files of this repo: `git clone https://github.com/robbi5/piscreen.git ./screen`
 
-4. Run the automatic installer: `bash setup.sh`
+4. Run the automatic installer: `bash screen/setup.sh`
 
 ## 4. Fill your piscreen configuration
 
@@ -62,6 +62,7 @@ To shutdown it nicely, press `ALT+F4`, rightclick, choose *Terminal* and enter `
 * Read the hostname from `piscreen.txt` and set it on boot.
 * Add a wallpaper, overlay start-time, hostname and current ip
 * Support proxies
+* Add nicer shutdown button
 
 # Thanks
 
