@@ -42,7 +42,7 @@ The difference to other signage-software like [Screeny OSE](https://github.com/w
 
 2. Install Git: `apt-get install git-core`
 
-3. Checkout the files of this repo: `git clone https://github.com/robbi5/piscreen.git ./screen`
+3. Checkout the files of this repo: `git clone https://github.com/Robbi5/piscreen.git ./screen`
 
 4. Run the automatic installer: `bash screen/setup.sh`
 
