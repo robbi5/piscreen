@@ -36,7 +36,7 @@ sed -e 's/#watchdog-device/watchdog-device/g' -i /etc/watchdog.conf
 /etc/init.d/watchdog start
 
 echo "Adding piscreen config-file"
-cp ./piscreen.example.txt /boot/piscreen.txt
+cp ./screen/piscreen.example.txt /boot/piscreen.txt
 chmod ugo+r /boot/piscreen.txt
 
 echo "Installing Google Chrome"
@@ -51,7 +51,7 @@ echo "~/piscreen/autostart &" >> /home/screen/.config/openbox/autostart
 chown -R screen /home/screen/.config
 
 echo "Copying piscreen files"
-cp -r ./piscreen /home/screen/
+cp -r ./screen/piscreen /home/screen/
 chown -R screen /home/screen/piscreen
 chmod +x /home/screen/piscreen/start-browser.sh
 chmod +x /home/screen/piscreen/autostart
