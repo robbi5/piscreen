@@ -42,13 +42,13 @@ The difference to other signage-software like [Screeny OSE](https://github.com/w
 
 2. Install Git: `apt-get install git-core`
 
-3. Checkout the files of this repo: `git clone https://github.com/Robbi5/piscreen.git ./screen`
+3. Checkout the files of this repo: `git clone https://github.com/robbi5/piscreen.git ./screen`
 
 4. Run the automatic installer: `bash screen/setup.sh`
 
 ## 4. Fill your piscreen configuration
 
-Insert the SD card in your regular computer and edit the `piscreen.txt` in the root folder of the SD card.
+Insert the SD card in your regular computer and edit the `piscreen.txt` in the Root folder of the SD card.
 Attention: You must not use spaces between the key, the = and the value.
 
 ## 5. Test and run
